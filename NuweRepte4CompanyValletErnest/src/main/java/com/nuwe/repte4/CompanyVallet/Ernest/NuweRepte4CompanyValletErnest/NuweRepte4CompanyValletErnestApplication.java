@@ -9,5 +9,4 @@ public class NuweRepte4CompanyValletErnestApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(NuweRepte4CompanyValletErnestApplication.class, args);
 	}
-
 }
