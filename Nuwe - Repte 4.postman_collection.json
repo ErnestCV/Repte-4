@@ -1,0 +1,290 @@
+{
+	"info": {
+		"_postman_id": "5e741dcf-2f67-4b48-a11b-ee38b5a107d7",
+		"name": "Nuwe - Repte 4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21924073"
+	},
+	"item": [
+		{
+			"name": "Clients",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/v1/clients/new",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\": \"Ernest\",\r\n    \"lastName\": \"Company Vallet\",\r\n    \"email\": \"e@email.com\",\r\n    \"mobileNo\": \"600000000\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/clients/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"clients",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/v1/clients/update/5",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\": \"Ernest\",\r\n    \"lastName\": \"Company Vallet\",\r\n    \"email\": \"e@email.com\",\r\n    \"mobileNo\": \"600000003\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/clients/update/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"clients",
+								"update",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/v1/clients/delete/8",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/clients/delete/8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"clients",
+								"delete",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/v1/clients/3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/clients/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"clients",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/v1/clients/all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/clients/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"clients",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Clients - Addresses",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/v1/clients/1/addresses/new",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"street\": \"street1\",\r\n    \"number\": \"number1\",\r\n    \"city\": \"city1\",\r\n    \"province\": \"province1\",\r\n    \"postCode\": \"postCode1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/clients/7/addresses/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"clients",
+								"7",
+								"addresses",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/v1/clients/1/addresses/update/8",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"street\": \"street1\",\r\n    \"number\": \"number1\",\r\n    \"city\": \"city1\",\r\n    \"province\": \"province1\",\r\n    \"postCode\": \"08013\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/clients/7/addresses/update/8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"clients",
+								"7",
+								"addresses",
+								"update",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/v1/clients/7/addresses/delete/7",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/clients/7/addresses/delete/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"clients",
+								"7",
+								"addresses",
+								"delete",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/v1/clients/7/addresses/5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/clients/7/addresses/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"clients",
+								"7",
+								"addresses",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/v1/clients/1/addresses/all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/clients/1/addresses/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"clients",
+								"1",
+								"addresses",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
